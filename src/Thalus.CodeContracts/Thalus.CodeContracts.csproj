@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Thalus Ulysses</Authors>
+    <Company>None</Company>
+    <Product>Thalus Code Contracts</Product>
+    <Description>Thalus Code Contracts is an extensible library to ensure code contracts. The library is extensible using the .NET "Extension Method" functionality</Description>
+    <Copyright>Thalus Ulysses</Copyright>
+    <PackageLicenseUrl>https://github.com/ThalusUlysses/Thalus.CodeContracts/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ThalusUlysses/Thalus.CodeContracts</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThalusUlysses/Thalus.CodeContracts</RepositoryUrl>
+    <RepositoryType>Code</RepositoryType>
+    <PackageTags>.Net NETSTANDARD CodeContracts</PackageTags>
+  </PropertyGroup>
+
+</Project>

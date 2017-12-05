@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Thalus Ulysses</Authors>
+    <Company>None</Company>
+    <Product>Thalus Code Contracts Test</Product>
+    <Description>This package contains tests for package: Thalus.CodeContracts as native, NUNIT or MSTEST environment depending on compiler switch.</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Thalus.CodeContracts\Thalus.CodeContracts.csproj" />
+  </ItemGroup>
+
+</Project>
